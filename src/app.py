@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from src.utils import generate_sql
+from utils import generate_sql
 from db import run_query
 
 # UI CODE 
