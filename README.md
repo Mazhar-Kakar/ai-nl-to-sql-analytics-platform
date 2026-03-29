@@ -30,6 +30,11 @@ Non-technical users struggle to write SQL queries.
 User → Streamlit → LLM (Qwen) → SQL → MySQL → Result
 ```
 
+![System Architecture](./images/architecture.png)
+
+...
+![App Demo](./images/demo_screenshot.png)
+
 ---
 
 ## 📂 Project Structure
