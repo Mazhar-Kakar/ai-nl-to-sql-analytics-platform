@@ -35,15 +35,30 @@ User → Streamlit → LLM (Qwen) → SQL → MySQL → Result
 ## 📂 Project Structure
 
 ```
-project/
+ai-nl-to-sql-analytics-platform/
 │
-├── app.py          # Streamlit UI
-├── db.py           # Database logic
-├── llm.py          # LLM integration
-├── prompt.py       # Prompt engineering
-├── utils.py        # Helper functions
+├── README.md       
 ├── requirements.txt
-└── README.md
+├── .gitignore
+│
+├── src/            
+│   ├── app.py              # Streamlit UI
+|   ├── db.py               # Database logic
+|   ├── llm.py              # LLM integration
+|   ├── prompt.py           # Prompt engineering
+│   └── utils.py            # Helper functions
+│                          
+├── db/
+│   ├── schema.sql      # CREATE TABLE statements
+│   └── data/
+│       ├── customers.csv
+│       ├── orders.csv
+│       ├── order_items.csv
+│       ├── products.csv
+│       ├── category.csv
+│       └── departments.csv
+|
+└── images/
 ```
 
 ---
