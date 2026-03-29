@@ -5,7 +5,7 @@ def run_query(query):
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="@66168612Ma*",
+            password="DB_PASSWORD",
             database="sales_db"
         )
 
