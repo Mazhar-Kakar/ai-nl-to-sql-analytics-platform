@@ -1,7 +1,7 @@
 -- ===============================================================================
 -- DATABASE SETUP 
 -- =============================================================================== 
--- NOTE: IMPORT DATA MANUALLY AFTER CREATING EACH TABLE, BECAUSE OF FOREIGN KEY CONSTRAINTS
+-- NOTE: PLEAS IMPORT DATA MANUALLY IN TEH EXISTING TABLE CREATIONS SEQUENCE PARENT TABLE FIRST, BECAUSE OF FOREIGN KEY CONSTRAINTS
 
 -- CREATE NEW DATABASE
 CREATE DATABASE sales_db;
@@ -9,12 +9,12 @@ USE sales_db;
 
 /*
 CREATE SIX TABLES:
+    - departments
+    - category
+    - products
     - customers
     - orders
     - order_items
-    - products
-    - category
-    - departments
 */
 
 -- ---------------------------------------------------------------------------------

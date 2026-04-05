@@ -16,7 +16,7 @@ Accuracy is more important than creativity.
 """
 
 schema_prompt = """
-DATABASE: practice_joins
+DATABASE: sales_db
 
 STRICT SCHEMA (DO NOT MODIFY ANY NAME):
 
@@ -141,6 +141,7 @@ def get_prompt(question):
         example_prompt,
         user_prompt
     ])
+
 
 
 
