@@ -48,10 +48,8 @@ ai-nl-to-sql-analytics-platform/
 │
 ├── src/            
 │   ├── app.py              # Streamlit UI
-|   ├── db.py               # Database logic
-|   ├── llm.py              # LLM integration
-|   ├── prompt.py           # Prompt engineering
-│   └── utils.py            # Helper functions
+|   ├── backend.py          # Database logic, LLM integration, Helper functions
+│   └── prompt.py           # Prompt engineering 
 │                          
 ├── db/
 │   ├── schema.sql      # CREATE TABLE statements
@@ -142,6 +140,7 @@ streamlit run app.py
 
 * LLM may generate incorrect queries in edge cases
 * Depends on prompt quality
+* Future RAG implimentation to reduce hallucination
 * No dynamic schema support yet
 * Limited scalability (local setup)
 
